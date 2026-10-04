@@ -1,1 +1,1 @@
-Pending local execution.
+ M evidence/git_status.txt
