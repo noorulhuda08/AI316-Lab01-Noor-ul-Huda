@@ -30,8 +30,8 @@ if not (root/'.git').exists():
     run(git,'checkout','main')
     run(git,'merge','--no-ff','feature/lab01-setup','-m','Merge feature/lab01-setup')
 notebook = 'notebooks/Lab01_Foundations_AI_Engineering.ipynb'
-run(python,'-m','jupyter','nbconvert','--to','notebook','--execute','--inplace',notebook,'--ExecutePreprocessor.kernel_name=aipdd_env','--ExecutePreprocessor.timeout=300')
-run(python,'-m','jupyter','nbconvert','--to','html',notebook)
+run(python,'-m','nbconvert','--to','notebook','--execute','--inplace',notebook,'--ExecutePreprocessor.kernel_name=aipdd_env','--ExecutePreprocessor.timeout=300')
+run(python,'-m','nbconvert','--to','html',notebook)
 save('evidence/package_verification.txt',capture(python,'-c',"import sys,numpy,cv2,torch,matplotlib,ultralytics; print('Student: Noor ul Huda'); print('Python:',sys.version); print('Environment:',sys.prefix); print('numpy:',numpy.__version__); print('cv2:',cv2.__version__); print('torch:',torch.__version__); print('matplotlib:',matplotlib.__version__); print('ultralytics:',ultralytics.__version__)"))
 lines = ['Noor_ul_Huda_LAB01/']
 for current, dirs, files in os.walk(root):

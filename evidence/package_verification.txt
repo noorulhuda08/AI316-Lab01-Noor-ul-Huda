@@ -1,0 +1,8 @@
+Student: Noor ul Huda
+Python: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+Environment: C:\Users\Lenovo\OneDrive\Desktop\aipddlab1\Noor_ul_Huda_LAB01\aipdd_env
+numpy: 2.4.6
+cv2: 5.0.0
+torch: 2.14.1+cpu
+matplotlib: 3.11.2
+ultralytics: 8.4.173

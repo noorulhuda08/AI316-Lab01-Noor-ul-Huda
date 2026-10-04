@@ -1,0 +1,5 @@
+*   77799a4 (HEAD -> main) Merge feature/lab01-setup
+|\  
+| * 3852a26 (feature/lab01-setup) Add pinned lab dependencies
+|/  
+* 0025c6c Initial project structure and gitignore
